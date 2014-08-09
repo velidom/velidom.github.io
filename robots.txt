@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://velidom.github.io/sitemap.xml 
