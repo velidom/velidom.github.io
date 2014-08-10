@@ -1,35 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
-  
-  <url>
-    <loc>http://velidom/blog/archives/</loc>
-    <lastmod>2014-08-09T20:22:33-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://velidom/</loc>
-    <lastmod>2014-08-09T20:22:33-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://velidom/</loc>
-    <lastmod>2014-08-09T20:22:33-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://velidom/contact/</loc>
-    <lastmod>2014-08-09T20:22:33-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://velidom/blog/site-launch/</loc>
+        <lastmod>2014-06-07T19:09:22-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/equipment/</loc>
+        <lastmod>2014-07-26T17:26:36-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/play/</loc>
+        <lastmod>2014-07-26T17:31:17-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/first-partner/</loc>
+        <lastmod>2014-07-27T10:58:30-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/practice-makes-better/</loc>
+        <lastmod>2014-07-27T19:04:17-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/model/</loc>
+        <lastmod>2014-08-04T07:48:46-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/need-to-be-slow-to-be-fast/</loc>
+        <lastmod>2014-08-08T18:04:13-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/progress-through-failing/</loc>
+        <lastmod>2014-08-09T02:42:08-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/bio/</loc>
+        <lastmod>2014-05-21T15:51:44-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/archives/</loc>
+        <lastmod>2014-08-09T02:42:08-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/blog/</loc>
+        <lastmod>2014-08-09T02:42:08-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/contact/</loc>
+        <lastmod>2014-06-07T19:00:05-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/</loc>
+        <lastmod>2014-08-09T02:42:08-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/</loc>
+        <lastmod>2014-07-27T10:40:38-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/more/</loc>
+        <lastmod>2014-05-30T07:50:27-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/more2/</loc>
+        <lastmod>2014-06-01T16:35:40-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/more3/</loc>
+        <lastmod>2014-06-02T11:13:59-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/more4/</loc>
+        <lastmod>2014-06-02T21:38:07-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/robots.txt</loc>
+        <lastmod>2014-05-21T11:22:28-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/sample/</loc>
+        <lastmod>2014-05-30T07:43:27-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/sponsors/</loc>
+        <lastmod>2014-08-09T02:42:08-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://velidom/synopsis/</loc>
+        <lastmod>2014-05-21T16:16:45-07:00</lastmod>
+    </url>
 </urlset>

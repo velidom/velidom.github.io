@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Velocity to Dominate (Velidom)</title>
+  <meta name="author" content="Mark Fussell">
+
+  
+  <meta name="description" content="Programming I am going to teach you how to program. For those who think they should scurry to the next chapter out of fear, please fear not. At &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://velidom/more3">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="The Velocity to Dominate (Velidom)" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <nav role="navigation"><div role="search">
+</div>
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog">News</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/atom.xml"><img src='/images/rss.png' /> RSS</a></li>
+</ul>
+
+</nav>
+  <header role="banner"><hgroup>
+  <h1><a href="/"><img src='/images/SlumsHeadline_v1.jpg'></a></h1>
+</hgroup>
+
+</header>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <h3>Programming</h3>
+
+<p>I am going to teach you how to program.  For those who think they should scurry to the next chapter out of fear, please fear not.  At worse I will fail.  I am pretty good at that, but sometimes I don’t.  And for those who think they know the art of programming so well, please don’t scurry away quite yet either.  For I am not just going to teach you how to program, I am going to teach you how to program in the only <em>true</em> programming language.  This is not just a <em>great</em> programming language; it is truly what “The Matrix” is made of.  It is the language of the machines and the only true programming language to those machines.  It is named… Machine Language… computer people are commonly not very creative about naming things.</p>
+
+<p>To learn the one true language, you will need some playing cards, and a desk or relatively empty space to work with…</p>
+
+<h3>Programming: Smalltalk</h3>
+
+<p>There are only a few great programming languages.  The rest are mere clones and variations, and some languages are just silly although they had a purpose at some point or another.</p>
+
+<p>One of the great languages is Smalltalk.  It was created by Alan Kay and his team at Xerox PARC over about a decade, and was fully released to the world in 1980: Smaltalk-80.  Smalltalk is the first Object-Oriented Programming language.  Everything in Smalltalk is an object: you “talk to” objects to get things done.  This is actually quite natural, and is how humans interact with each other, and even with appliances.  You ask your microwave to run for 30 seconds.  You ask the thermostat to keep the house at 65 degrees.  You ask your daughter to take out the trash.  And after two or three repetitions of the request, she eventually does so.  Appliances are more respectful (if less loving) than daughters.</p>
+
+<p>If Smalltalk is so natural, why wasn’t it “the norm” since its release?  I think that is mostly a failure in human motivations.  People tried to make way too much money off of Smalltalk.  At the time, software tools varied between things that were not very powerful but nearly free (e.g. a ‘C’ compiler) and things that were impressively powerful and quite expensive (e.g. a financial derivative analysis system).  Sadly, a lot of tools tried to monetize themselves by being in the second bucket.  And Smalltalk-80 was one of them.  The company that was trying to monetize Smalltalk-80 wanted a lot of money for it.  They were very greedy and eventually the world struck back.  In their epic death, they would acquire their main low-cost competitor in 1995, go public in 1997, and then die by 1999 (complete delisting and dissolution of the company).  During the same time, a language with many similarities to Smalltalk would rise.  Sun&rsquo;s Java was free.</p>
+
+<p>But returning to Smalltalk, the other reason it wasn’t “the norm” since 1980 is that computers don’t work how Smalltalk works.  And many programmers understand how computers work.  And those same programmers have a hard time thinking differently.  So although Smalltalk was a very simple, powerful, and elegant language for building software similar to how the world worked, it was a very arcane language if you knew how CPUs worked.  Or knew and couldn’t “let it go” and try a new metaphor.</p>
+
+<p>How computers work is that the heart of a computer (the CPU) always has access to everything: it is like it sees every molecule on the planet earth.  And it can do things with these molecules like “add them” and “move them around”.  So the core of low-level programming is to understand all the memory a computer has access to (e.g. RAM: Random Access Memory), all the things the CPU can do to that memory, and then all the other capabilities of a computer, like having some memory be put on a ‘Display’.  If you want to microwave something, you need to decide what memory is used with the microwave, and then write some routines that can change that memory.  Maybe one routine keeps track of time.  One knows how to turn on the “beam”.  Another can display the remaining time.  And another knows how to respond to a ‘start’ or ‘keypad’ button.  Interestingly all these programming steps live in exactly the same molecules as everything else, so the CPU could conceivably modify them as well.  But normally the program is written once, read by the CPU, and then the CPU just runs the Microwave program (routines) for as long as you want.  There are microwave programs (unchanging) and microwave data (changing).  And they are completely separate, because… well just because.  Because that is how programmers originally thought about things.  Because sometimes the “Microwave Program” is in special unchanging memory, except that is actually quite rare.  Because, because, because basically programmers wouldn’t take a metaphor leap and see what happens on the other side.  Maybe this chapter should have a ‘Boxes’ title.</p>
+
+<h3>Programming: Crutches</h3>
+
+<p>Some variations of programming methodologies include aspects that I consider crutches.  If you are hobbling along, the practice might help.  But any true programmer, and true software engineer, will not need these crutches.  If you are running, crutches get in the way.  If you are flying, crutches drop from your armpits.</p>
+
+<p>The first crutch is paired programming.  This is where two programmers are required to work together at all times when touching software.  Basically two minds working together, somehow synergistically producing more than each would on its own.  I am not referring to pairing for mentoring aspects, which is definitely useful.  Or pairing to help work through some issue that is plaguing one or both of the developers. Or using pairing and tripling of people to deal with lack of knowledge: by having two or three people working on a task together, they completely cover all they need to know.  All of these are good, sporadic, and transitory use of pairing.  The crutch I am referring to is when two people pair to write pretty much all the code, all the time.</p>
+
+<p>If you have decent software engineers, this makes absolutely no sense to a fiscally-constrained CEO.  Decent software engineers can listen to the customer’s needs, understand the architecture of the system being built, and build new things that solve the customer’s needs.  Alone.  The argument that a second mind will help write better code, because you are constantly explaining your code to another person.  I believe that could be true if the two people are at similar velocities.  Documenting your system (whether verbally or in electrons), definitely helps you write better code.  But it doesn’t make you twice as productive, either as an individual or for the whole team.  If you are decent, you can see issues in your own code as you read it to yourself.</p>
+
+<p>Further, a decent software engineer can easily read other people’s code in a tiny fraction of the time it takes to write it.  I commonly read thousands of lines of code in a modest day session of reverse engineering.  So to say pairing helps communicate with the rest of the team is again only sensible to a company that has no financial or time constraints.</p>
+
+<p>If people want to pair, that is certainly fine.  But it is moving them down the ladder of productivity significantly.  They would have to be awesome when paired: clearly producing more than other individuals produce, clearly writing much better structured code that is much easier to read, and doing this day after day, week after week.  I have seen many levels of programmers, and have never seen a pair that was better than my Radford 4.2.  If they are willing to share that single salary as a pair, all the best to them.  But I would rather they read more, and simply became Radford 4.2s on their own.  That would be awesome.</p>
+
+<h3>More and Less</h3>
+
+<p>A phrase at Caltech was “At MIT you learn less and less about more and more, until you know nothing about everything.  At Caltech you learn more and more about less and less, until you know everything about nothing.”  Basically representing the choices between generalization and specialization.  You only have so much time, so you have to pick.  Techers picked the latter.  I am not sure whether MIT students agreed with the stereotyping.  But I do know that making either choice is a box.</p>
+
+<p>The right phrase is “I want to learn more and more about more and more, until I know everything about everything”.  Time, the whims of DNA, and wayward busses will prevent that, but it should be your goal.</p>
+
+<p>As of this time, I know approximately 36 computer-programming languages.  I am fluent in at least a dozen of them, and professionally competent in the rest.  If you offered me a job that required any one of the 36, and I accepted the job, you would likely be very happy with my productivity.  I am a polyglot: a programmer that can program many languages.  Many different types of languages.  Very quickly and effectively.</p>
+
+<p>This was not easy, and was not true 35 years ago.  Back then I could program in two languages at best: Basic and 6502 assembly language.  But with 35 years of perseverance I became fluent and competent at more and more of the great and useful computer languages created.  My ability to translate needs into well-structured programs became exceptional, whatever the language I was using.  “More and more about more and more”.</p>
+
+<p>I entered the computer world during the golden era for programmers.  Computers had finally reached a price point where normal people could own one (if painful) and normal people could understand one.</p>
+
+<p>In the golden era, you could open the machine up and look at its parts.  See a CPU.  See the RAM.  See the connection to the keyboard, screen, joystick, and other peripherals.  A layer down, you could look at the circuits in the CPU and see registers, adders, etc.  A layer up, you could see the assembly language that the computer (the CPU) understood.  See the language that talked to the keyboard, screen, joystick, etc.  At first, it is not easy to understand how that CPU thinks.  But it doesn’t think very much, so getting into its head is pretty easy if you make the effort.  Next you wander up to Basic.  Now you are no longer getting into the head of the computer.  You are trying to make a language that is easier for your head to understand.  It will later be translated into Assembly and Machine Code by something called a compiler.</p>
+
+<p>Almost nothing has really changed between then and now, except everything has grown and shrunk.  All in ways that hurt the human ability to comprehend computers.  CPUs are much more complicated.  A 6502 had about four thousand transistors.  The Apple A7 has a billion.  Assembly language has a similar kind of structure, but is maybe four times as complicated.  GPUs are added into the mix with the CPU.  And the plethora of languages that “make it easier” to humans is in the dozens.  Much more stuff.  And all the physical stuff you want to see has shrunken to be basically invisible to a human.  An iPhone is smaller than the 8K memory expansion card for an Atari computer.</p>
+
+<p>I am amazed that kids today can grok computers at all.  I do my best to help them understand things bit by bit, but it is not an easy task.  The internet helps.</p>
+
+<h3>Programming: Smalltalk (continued)</h3>
+
+<p>A great, incredibly short, and powerful explanation for how Smalltalk and Object-Oriented programming is different from classic programming is a book called “A Taste of Smalltalk” by Ted Kaehler and Dave Patterson.  I loved the paradigm so much that I translated it to Ruby, Scratch, and Flex.  But I recommend the original unless you know one of these other languages, in which case I still recommend the original but you might read my version too ☺.</p>
+
+<p>“A Taste of Smalltalk” starts with a simple problem: program a computer to solve the Towers of Hanoi.  The Towers of Hanoi is a puzzle where you have a stack of discs on one of three poles.  The discs get progressively smaller as you get higher in the stack.  You goal is to move the tower from one pole to another while obeying two major rules: (a) move one disc at a time, and (b) bigger discs can’t be on top of smaller discs [or they squash them].</p>
+
+<p>To keep things brief, the classic solution involves a core algorithm of ‘moveTower’ that calls ‘moveDisc’ and ‘moveTower’ recursively.  The data of where the discs are is initially stored within parameters.  Later the disc data is moved outside parameters (so we can see progress along the way) but then they become part of some global-like state shared by the core algorithm.  This is very classic, with a strong program vs. data separation and algorithms that make sense to programmers but have certain critical issues inherent to them.  The object-oriented solution flips things around a bit to get rid of the issues.</p>
+
+<p>If you consider the Towers of Hanoi, can you imagine anything about the puzzle that would make it much easier?  For example, in Harry Potter’s Wizard Chess, the pieces know how to move.  You can tell them what to do, but you can’t tell them to move incorrectly.  This would be quite handy in learning to play chess.  Similarly, for the Towers, what if the pieces knew the rules? Even better, what if the pieces loved the rules.  They loved them so much that they know: what their best move is (if any), and how to move onto their best move.  Then the core program of Towers of Hanoi would be incredibly simple:</p>
+
+<ul>
+<li>Find the next disc that has a legal move
+
+<ul>
+<li>No moving the same disc twice in a row</li>
+</ul>
+</li>
+<li>Ask that disc to move onto that legal destination pole</li>
+</ul>
+
+
+<p>That is it.</p>
+
+<p>Whether the discs are barely more than number holders, or cool animated graphics, the algorithm is the same.  And whether there are five discs or five hundred, the algorithm is the same for both the tower and the discs.  You have isolated the internals of disc behavior, what discs can rightly understand what to do, from the external desires placed on the discs.  This is called in Object-Oriented Programming, encapsulation.  It is sometimes called “hiding”, but it isn’t hiding to prevent you from getting to something important.  Smalltalk is actually really bad at hiding anything.  But Smalltalk is incredibly good at de-emphasizing the internals of an object.  Why do you care what your microwave looks like inside [except if you are a daughter or son who wants to take my old microwave apart… you know who you are!]?  It is doing what you want, so get onto better things.  This is the Smalltalk way, and it is incredibly powerful.  More than thirty years later it is somewhat mainstream.  Which I guess is a classic “Better late than never”.</p>
+
+<h3>Programming: Crutches (continued)</h3>
+
+<p>The second crutch is Test-Driven Development.  Automated tests are awesome.  If you have a huge suite of “customer-based” tests, you can make sure you don’t do something that breaks what your customer wants.  Software tests are commonly called “Regression Tests”, which really means anti-regression tests, but developers are lazy about the extra two syllables.  If you have tests showing your system does “Foo”, and that test “goes red”, someone broke something.  As you build more and more code, and try to develop faster and faster, these customer-based, full-system, anti-regression tests are incredibly useful and empowering.  You can do mass changes being pretty confident some test will catch you if you blew it.  The planning engine for Evant definitely had this kind of test coverage.</p>
+
+<p>Test-Driven Development (TDD) is not awesome.  It is ludicrous.  The standard sensible way of building pretty much anything is (a) listening to what the customer needs, (b) coming up with a design that might work, &copy; verifying that your design truly solves the needs of the customer (if not, return to (b) or even (a)), and then (d) building customer-oriented tests that make sure your solution doesn’t regress.  TDD proponents say somehow the above is just totally wrong.</p>
+
+<p>I can actually accept one kind of TDD could plausibly make sense.  This is where you change the order to be (a) listening to what the customer needs, (b) building customer-oriented tests that make sure your solution progresses (and later doesn’t regress) in the direction your customer wants, then &copy; coming up with a design that might work, and finally (d) verifying that your design truly solves the needs of the customer (if not, return to &copy; or (b) or even (a)).  I accept this is plausible, but the issue is the customer better be able to read (even write) (b) or the whole thing falls apart.</p>
+
+<p>Later in the planning engine’s life, I moved some nasty XML-based tests into Excel.  This made it very easy for analysts to write what they wanted to see happen.  One sheet for before, one sheet for changes, and then one sheet for after.  Those were basically customer-oriented tests, and if they were about new functionality not yet built, that was basically a TDD approach.  It was fine mostly because the changes were simple augmentations to an existing design vs. having to come up with a design for a very different and new problem.</p>
+
+<p>So if the above TDD is fine, what is the problem?  Well, the above TDD is not what most people are now calling TDD, or doing for TDD.  At least as far as I can tell.  TDD is now: figure out what miniscule little functionality you are working on, and before actually building it, create a test that shows this little functionality does what little it does.  Don’t create tests from the customer’s perspective, create them from the implementer’s perspective.  Lots and lots and lots of tests.  Cover every line of code with these miniscule little tests.  Then when you are done that, write more tests that show how things work, if you fake it.  Faking it is called “mocking”.  If you mock something you fake its implementation and make it do what you think it should do.  So now we have tests of code in isolation and code interacting with some amount of context but that context is mostly faked.  At this point we still have no tests that reflect what the whole system would actually do to handle a real customer-oriented problem.  Later we can write those too.</p>
+
+<p>There are a ridiculous number of problems with this.  By thinking from the implementer’s point of view, you are likely losing sight of what you customer wants.  You may miss easy wins in implementation.  Or be headed down a very bad road with your design.  Everything looks great because your wonderful design is passing tests that may or may not have anything to do with what your customer wants.  The customer can’t be bothered to read lots of miniscule tests.  Or understand mocking/faking things, and whether that is correct or not.  The customer wants to see the whole system work and solve their problems.</p>
+
+<p>If the above wasn’t bad enough, writing all these little tests takes a lot of time.  Time that only abstractly could benefit the customer, and I contend pretty much never does.  Writing customer-oriented tests can clearly benefit the customer.  If those tests break, the system is very likely broken.  All these itty-bitty tests can break for any old reason.  If I put in a “radical” new design that makes the customer very happy, it will “radically” break lots and lots of these itty-bitty tests.  Then I have to go fix them all.  What a complete waste of the CEOs money and time.  And a complete waste of our customers’ time too.</p>
+
+  
+    <footer>
+      
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://velidom/more3/index.html" data-via="" data-counturl="http://velidom/more3/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>News</h1>
+<ul id="recent_posts">
+  
+    <li class="post">
+      <a href="/blog/progress-through-failing/">Progress through failing</a>
+    </li>
+  
+    <li class="post">
+      <a href="/blog/need-to-be-slow-to-be-fast/">Need to be slow to be fast</a>
+    </li>
+  
+    <li class="post">
+      <a href="/blog/model/">Model</a>
+    </li>
+  
+    <li class="post">
+      <a href="/blog/practice-makes-better/">Practice Makes Better</a>
+    </li>
+  
+    <li class="post">
+      <a href="/blog/first-partner/">First Partner</a>
+    </li>
+  
+</ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy; 2014 - Mark Fussell
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>
